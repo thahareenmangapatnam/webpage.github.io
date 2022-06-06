@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <style>
+            body{
+                margin:0px 0px auto 0px;
+            }
+            nav{
+                display: flex;
+                width:100%;
+                height:80px;
+                font-family: sans-serif;
+                position:fixed;
+                top:0;
+                right:0;
+                left:0;
+                border-bottom: 2px solid grey;
+                z-index:9;
+            }
+            nav .middle,.last{
+                font-weight:600;
+            }
+            nav .logo{
+                font-weight:bolder;
+                font-size:28px;
+                margin-left:150px;
+            }
+            .logo span{
+                color:rgb(204, 9, 9);
+                font-size:38px;
+                font-family: normal;
+            }
+            nav .middle{
+                margin-top:43px;
+                margin-left:280px;
+            }
+            nav .middle a{
+                text-decoration: none;
+                color:black;
+                margin-left: 25px;
+            }
+            nav .last{
+                margin-left: 330px;
+                margin-top:15px;
+            }
+            nav .last p{
+                border: 2px solid grey;
+                width:90px;
+                padding: 7px;
+                text-align: center;
+            }
+            main{
+                margin-top:82px;
+                display:flex;
+                margin-left:150px;
+                position: relative;
+            }
+            main .text_content{
+                width:50%;
+            }
+            main .poster{
+                width:50%;
+                background-color: aqua;
+            }
+            main .text_content h1,span{
+                font-size:45px;
+                font-family: sans-serif;
+            }
+            main .text_content span
+            {
+                background-color: blue;
+                color:white;
+                border-radius: 20px;
+                font-size:25px;
+                padding:5px 20px 5px 20px;
+                position:absolute;
+                top:35px;
+            }
+            main .text_content .btn1{
+                background-color: orangered;
+                color:white;
+                border:none;
+                padding:13px 28px 13px 28px;
+                font-weight: bold;
+            }
+            main .text_content p{
+                font-family: sans-serif;
+                font-size: 15px;
+            }
+            main .text_content .arrow_symbol{
+                display: inline;
+                margin-left:15px;
+            }
+            main .text_content img{
+                width:100px;
+                height:100px;
+                border-radius: 85px;
+                position: absolute;
+                left:280px;
+                top:250px;
+            }
+            main .text_content .text_content_bottom{
+                display:flex;
+            }
+            main .text_content .text_content_bottom .div2{
+                margin-left:100px;
+            }
+            main .text_content .text_container_footer{
+                background-color: rgba(13, 11, 11, 0.936);
+                color:white;
+                display:flex;
+                padding:7px 0px 8px 0px;
+            }
+            main .text_content .text_container_footer .btn2{
+                background-color: yellow;
+                color:black;
+                font-weight:bold;
+                padding:7px 15px 7px 15px;
+                border: none;
+            }
+            main .text_content .text_container_footer .div3,.div4{
+                margin-left:100px;
+            }
+            main .text_content .text_container_footer .div4 h4{
+                border-bottom: 1px solid rgb(114, 110, 110,0.4);
+
+            }
+            main .poster{
+                background-image: url("https://i.pinimg.com/originals/8c/ac/e0/8cace0bec1931a11bbb8cb31b6dc9e93.jpg");
+                background-size:cover;
+                background-repeat: no-repeat;
+            }
+            main .poster img{
+                width:90px;
+                height:90px;
+                border-radius:60px;
+            }
+            main .poster .xd_image{
+                position:absolute;
+                top:280px;
+                right:40px;
+            }
+            main .poster .figma_image{
+                position:absolute;
+                top:170px;
+                right:450px;
+            }
+            main .poster .diamond_image{
+                position:absolute;
+                top:70px;
+                right:40px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <p>Richard<span>.</span></p>
+            </div>
+            <div class="middle">
+                <a href="">Home</a>
+                <a href="">Works</a>
+                <a href="">About</a>
+                <a href="">Projects</a>
+                <a href="">Services</a>
+            </div>
+            <div class="last">
+                <p>Let's Chat</p>
+            </div>
+        </nav>
+        <main>
+            <div class="text_content">
+                <h1>Hi! I Am &nbsp;<span>UI/UX</span><br>Richard Brian</h1>
+                <p>Designing user interfaces for over <b>7 years</b><br>as a product designer</p>
+                <button class="btn1">Hire Me</button>
+                <p class="arrow_symbol"><b>Projects&#8599;</b></p>
+                <img src="https://images-platform.99static.com//c9zdjT7uGlj9JqpC71Hw7nCYcgk=/333x192:1660x1519/fit-in/500x500/99designs-contests-attachments/94/94620/attachment_94620759">
+                <h2>+84</h2>
+                <p>Clients on work<br>worldwide</p>
+                <div class="text_content_bottom">
+                    <div>
+                        <h2>572</h2>
+                        <p>Project Done</p>
+                    </div>
+                    <div class="div2">
+                        <h2>Contact</h2>
+                        <p>heloo@richardbrian.com</p>
+                    </div>
+                </div>
+                <div class="text_container_footer">
+                    <div class="div3">
+                        <h3>Project<br>Statistics 2022</h3>
+                        <button class="btn2">Know More</button>
+                    </div>
+                    <div class="div4">
+                        <h4>Website Design&emsp;&emsp;&emsp;&emsp;75</h4>
+                        <h4>Mobile App Design&emsp;&nbsp;&emsp;64</h4>
+                        <h4>Brand Identity&emsp;&emsp;&emsp;&emsp;37</h4>
+                    </div>
+                </div>
+            </div><!--text_container_footer ki paina vunnadhi text_content_bottom-->
+            <div class="poster">
+                <img src="https://t3.ftcdn.net/jpg/03/28/17/38/360_F_328173874_XMQJtTeLY8a5os1uIoM6Gy4jlmDM0dbO.jpg" class="xd_image">
+                <img src="https://cdn.dribbble.com/users/2814689/screenshots/14486461/figma-for-dribble-v1_4x.jpg" class="figma_image">
+                <img src="https://m.media-amazon.com/images/I/61rRONvWqsS._UX522_.jpg" class="diamond_image">
+            </div>
+        </main>
+    </body>
+</html>
